@@ -12,7 +12,6 @@ def main():
     
     st.write("Sample Data:", data)
     st.line_chart(data.set_index("Date"))
-    print("test")
 
 if __name__ == "__main__":
     main()
